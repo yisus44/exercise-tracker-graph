@@ -2,7 +2,7 @@ const { gql } = require('apollo-server-express');
 const typedefs = gql`
   type User {
     username: String!
-    age: String!
+    age: Int!
     id: ID!
   }
 
